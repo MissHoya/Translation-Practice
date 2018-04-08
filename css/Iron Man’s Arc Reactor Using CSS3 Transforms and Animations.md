@@ -7,30 +7,7 @@
 
 # 页面包装
 
-我们将是我们的方舟反应堆处于全屏黑暗背景下。以下是我们制作全屏包装元素的代码：
-
-``` css
-body {
-  margin: 0;
-}
-.fullpage-wrapper {
-  height: 100vh;
-  background: radial-gradient(#353c44, #222931); //注意此处是径向渐变背景
-}
-```
-
-为什么我们要在body中声明margin为空？因为在默认情况下，用户代理样式表会为`<body>`设置一些margin。这样可以防止`<body>`中的元素触碰到屏幕的边缘。由于我们希望我们的包装器能覆盖整个屏幕，乃至所有边缘，所以我们通过设置为0来移除了`<body>`元素的margin。
-
-我们为` # 使用CSS3变形和动画制作钢铁侠的方舟反应堆
-[原文] [Iron Man’s Arc Reactor Using CSS3 Transforms and Animations | CSS-Tricks](https://css-tricks.com/iron-mans-arc-reactor-using-css3-transforms-and-animations/)
-
-好了，钢铁侠迷们，启动你们的代码编辑器，我们将用CSS来制造钢铁侠衣服上的方舟反应堆。下面图片是我们应该制作的结果：
-
-![Iron Man’s Arc Reactor.gif](../assets/Iron%20Man’s%20Arc%20Reactor.gif)
-
-# 页面包装
-
-我们将是我们的方舟反应堆处于全屏黑暗背景下。以下是我们制作全屏包装元素的代码：
+我们将我们的方舟反应堆处于全屏黑暗背景下。以下是我们制作全屏包装元素的代码：
 
 ``` css
 body {
@@ -88,7 +65,9 @@ body {
 }
 ```
 这是更好的方法。
+
 <img src="../assets/WX20180404-172158@2x.png" width="500">
+
 在HTML中还有很多其他的方法可以让元素居中。在CSS-Tricks这里有一篇[居中指南](https://css-tricks.com/centering-css-complete-guide/)可以学习更多的方法。
 
 # 反应堆芯：CSS中的同心圆
